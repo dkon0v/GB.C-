@@ -4,7 +4,7 @@ int y = InputNumbers("Введите Y: ");
 int z = InputNumbers("Введите Z: ");
 Console.WriteLine($"");
 
-int[,,] array3D = new int[x, y, z];
+int[,,] array3D = new int[x, y, z]; 
 CreateArray(array3D);
 WriteArray(array3D);
 
