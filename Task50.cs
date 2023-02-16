@@ -6,7 +6,7 @@ int b = Convert.ToInt32(Console.ReadLine());
 int [,] numbers = new int [10,10];
 FillArrayRandomNumbers(numbers);
 
- if(a > numbers.GetLength(0) || m > numbers.GetLength(1))
+ if(a > numbers.GetLength(0) || a > numbers.GetLength(1))
  {
     Console.WriteLine("Такого элемента нет.");
  }
